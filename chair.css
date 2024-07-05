@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.container
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.section-1
+{
+    margin-top: 10px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.imgsection-1
+{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.shop
+{
+    border-radius: 25px;
+    padding: 16px 75px;
+    background-color:#66a80f ;
+
+}
+.header
+{
+    font-style:normal;
+    margin-bottom: 10px;
+}
+.para
+{
+    line-height: 2;
+    margin-bottom: 50px;
+    font-size:large;
+}
+.shop:hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.design-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.design-2-section-2
+{
+    align-content: center;
+    margin-bottom: 20px;
+      
+}
+.svg-icon
+{
+    width: 25px;
+    height: 25px;
+    color: #66a80f;
+    margin-bottom: 20PX;
+}
+
+
+.header-2
+{
+    margin-bottom: 20px;
+}
+.section-3
+{
+    display: flex;
+    
+    background-color: #66a80f;
+    padding: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+.img-3
+{
+width:200px;
+height: 150px;
+border-radius: 10%;
+}
+.description
+{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.para-2
+{
+    padding-left: 20px;
+}
+.division-1
+{
+    display: flex;
+}
+.section-4-1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-bottom: 20px;
+   
+
+    
+}
+.boxes
+{
+    display:flex;
+
+
+}
+.box-1
+{
+    margin-left: 50px;
+    border-radius: 25px;
+    padding: 8px;
+    background-color:#66a80f ;
+    box-shadow: 5px 5px;
+    margin-bottom: 10px;
+
+}
+.box-1:hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.section-header
+{
+    margin-bottom: 20px;
+
+}
+.subject-1
+{
+    box-shadow: 3px 3px 3px 3px;
+    margin-right: 25px;
+    border-radius: 8px;
+}
+.head-1
+{
+    margin-bottom: 10px;
+}
